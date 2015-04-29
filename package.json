@@ -1,0 +1,23 @@
+{
+  "name": "nodeicloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/main.js",
+  "scripts": {
+    "start": "node ./server/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://intersides@bitbucket.org/intersides/nodeicloud.git"
+  },
+  "author": "intersides <marco.falsitta@me.com>",
+  "license": "ISC",
+  "dependencies":{
+    "circular-json": "^0.1.6",
+    "colors": "^1.0.3",
+    "express": "^4.12.3",
+    "serve-favicon": "^2.2.0",
+    "ws": "^0.7.1"
+  }
+}
